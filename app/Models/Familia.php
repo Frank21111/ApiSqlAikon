@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Familia extends Model
+{
+   protected $table = 'FAMILIA';
+
+   protected $hidden = [
+          'FA_NIVEL'
+         ,'FA_PALM'
+   ];
+}
